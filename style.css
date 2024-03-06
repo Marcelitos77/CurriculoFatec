@@ -68,6 +68,7 @@ img {
     margin-left: 30%;
 }
 
+
 h3 {
     color: white;
     text-align: center;
@@ -83,6 +84,38 @@ h3 {
 footer {
     color: white;
     text-align: center;
+    padding: 1%;
 }
+
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+
+    img {
+       width: 50%;
+    }   
+   
+   }
+@media only screen and (max-width: 549px) {
+
+a {
+    font-size: 100%;
+}
+
+img {
+    width: 0%;
+}
+
+#cabecalho {
+    display: block;
+    text-align: center;
+}
+
+#titulo-dois, p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+}
+
+
 
 
